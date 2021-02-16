@@ -1,17 +1,20 @@
 import React from 'react'
-import { goToFrontEndPage, goToBackEndPage, goBack} from '../../routes/Coordinator'
-import GoButton from '../../components/GoButton/GoButton'
+import { goToFrontEndPage, goToBackEndPage, } from '../../routes/Coordinator'
+import {useHistory} from 'react-router-dom'
+import { StackContainer, FrontEndButton,BackEndButton } from './HomeStyled'
 
 const HomePage = () => {
+    const history = useHistory()
+
     return(
 
         <div>
             <h1>Escolha seu caminho em JavaSCript</h1>
-
-            <div>
-                <GoButton>Front-End</GoButton>
-                <GoButton>Back-End</GoButton>
-            </div>
+            <StackContainer>
+            
+                <FrontEndButton onClick={() => goToFrontEndPage(history)}>Front-End</FrontEndButton>
+                <BackEndButton onClick={() =>goToBackEndPage(history)}>Back-End</BackEndButton>
+            </StackContainer>
 
         </div>
     )
