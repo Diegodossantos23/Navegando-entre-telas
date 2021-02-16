@@ -6,12 +6,15 @@ export const BackEndContainer = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 
+    min-width:377px;
+
     border:none;
     border-radius:10px;
     
     p{  
         margin:30px;
-        width:500px;    
+        width:500px; 
+        min-width:377px;   
     }
 
     button{
@@ -25,7 +28,8 @@ export const BackEndContainer = styled.div`
     }
 
     img{
-        width:400px;
+        width:300px;
+        min-width:200px;
         margin:20px
     }
 
