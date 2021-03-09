@@ -38,18 +38,17 @@ Neste exemplo, quando o usuário clicar no botão, o código associado ao evento
 
 <p align="center">
   
-  Link do [projeto](https://github.com/Diegodossantos23/Navegando-entre-telas.git).
+  Link do [projeto](https://navegando-entre-telas.vercel.app/).
   
   </p>
 
 <!-- gifs -->
 <p align="center">
-
+ 
+  ![BACKGROUND](https://github.com/Diegodossantos23/Navegando-entre-telas/blob/main/assets/home.png?raw=true)
   ![BACKGROUND](https://github.com/Diegodossantos23/Navegando-entre-telas/blob/main/assets/frontend.png?raw=true)
   ![BACKGROUND](https://github.com/Diegodossantos23/Navegando-entre-telas/blob/main/assets/backend.png?raw=true)
-  ![BACKGROUND](https://github.com/Diegodossantos23/Navegando-entre-telas/blob/main/assets/home-responsivo.png?raw=true)
  
-  
 </p>
 
 ## 🔨 Tecnologias
@@ -66,13 +65,14 @@ Antes de qualquer coisa, você precisa ter  o [Git](https://git-scm.com), o [npm
 
 ```bash
 # Clone este repositório:
-$ git clone https://github.com/Diegodossantos23/Aplicacao-React-Gerador-de-numero-aleatorio.git
+$ git clone https://github.com/Diegodossantos23/Navegando-entre-telas.git
 
 # Acesse à pasta do projeto:
-cd gerador
+cd navegandorouter
 
 # Instale as depêndencias:
 npm i
+npm i react-router-dom
 npm i styled-components
 
 # Execute a aplicação:
