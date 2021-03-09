@@ -27,9 +27,8 @@
 ---
 
 ## 📄 Sobre
-Ao clicar em um botão é comum que algo aconteça. Para chamarmos esta ação utilizamos o evento onClick.
+Ao clicar em um dos botôes o usuàrio podera navegar para alguma tela (frontend ou backend) e voltar a tela inicial ao clicar no botão voltar
 
-Neste exemplo, quando o usuário clicar no botão, o código associado ao evento onClick será executado (a geração do número aleatório).
 ---
 
 ## 🔝 Funcionalidades
